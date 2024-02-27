@@ -1,0 +1,48 @@
+.user__register {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user__register label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.user__register input[type="text"],
+.user__register input[type="email"],
+.user__register input[type="date"],
+.user__register input[type="password"],
+.user__register select,
+.user__register input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.user__register input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.user__register button[type="submit"],
+.user__register button[type="reset"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user__register button[type="submit"]:hover,
+.user__register button[type="reset"]:hover {
+    background-color: #45a049;
+}
